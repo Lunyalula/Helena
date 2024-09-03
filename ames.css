@@ -102,12 +102,15 @@ header .right-menu .user-icon {
 .add-book-form label {
     display: block;
     margin: 10px 0 5px;
+    font-size: large;
+    font-weight: bold;
 }
 
 .add-book-form input, .add-book-form select {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    border-radius: 12px;
 }
 
 .add-btn {
