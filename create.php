@@ -39,24 +39,24 @@ if (isset($_POST['submit'])) {
             <fieldset>
                 <legend>Personal Information:</legend>
                 <div style="text-align:left;">
-                    Name: <br>
+                    <label for="text">Name:</label><br>
                     <input type="text" name="name" required><br>
                     
-                    Email: <br>
+                   <label for="email"> Email:</label><br>
                     <input type="email" name="email" required><br>
                     
-                    Phone: <br>
+                     <label for="text">Phone:</label> <br>
                     <input type="text" name="phone" required><br>
                     
-                    Gender: <br>
+                   <label for="radio">Gender:</label> <br>
                     <input type="radio" name="gender" value="Male" required>Male
                     <input type="radio" name="gender" value="Female" required>Female
                     <br><br>
 
-                    Marital Status: <br>
+                   <label for="text">Marital Status:</label> <br>
                     <input type="text" name="marital" required><br>
                    
-                    Password: <br>
+                     <label for="password">Password: </label><br>
                     <input type="password" name="password" required><br><br>
                     <a href="read.php"><button type="submit" name="submit">login</button></a>
                 </div>
